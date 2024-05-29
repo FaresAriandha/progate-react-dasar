@@ -1,0 +1,116 @@
+html {
+	font: 100% / 1.5 "Lato", "Hiragino Maru Gothic Pro", "Meiryo UI", Meiryo,
+		"MS PGothic", sans-serif;
+	background: #f9fbfe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+	color: #2b546a;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	padding-top: 40px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.language {
+	height: 400px;
+	width: 810px;
+	padding: 0 70px;
+	margin: auto;
+}
+
+.language-item {
+	width: 240px;
+	height: 250px;
+	background: #ffffff;
+	margin: 15px;
+	float: left;
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px,
+		rgba(0, 0, 0, 0.12) 0px 1px 4px;
+	border-radius: 3px;
+	position: relative;
+}
+
+.language-name {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40px;
+	margin: auto;
+	text-align: center;
+}
+
+.language-image {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	margin: auto;
+	height: auto;
+	width: 60%;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
